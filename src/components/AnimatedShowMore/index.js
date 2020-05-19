@@ -55,10 +55,10 @@ export const AnimatedShowMore = ({ toggle, height = 200, shadowColor, speed, chi
           {children}
         </MainContent>
 
-        {/* Invisible conent container */}
+        {/* Invisible content container */}
         <div
           ref={contentContainerRef}
-          style={{ opacity: 0, position: 'absolute', top: 0 }}
+          style={{ opacity: 0.08, position: 'absolute', top: 0 }}
           aria-hidden="true">
           {children}
         </div>
