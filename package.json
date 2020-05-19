@@ -1,9 +1,9 @@
 {
-  "name": "react-showmore",
+  "name": "react-animated-showmore",
   "version": "1.0.1",
   "description": "Fully customizable animated 'show more' plugin",
   "main": "build/index.js",
-  "repository": "https://github.com/moondef/react-showmore",
+  "repository": "https://github.com/moondef/react-animated-showmore",
   "author": "Tina Holly && forked by moondef",
   "license": "MIT",
   "private": false,
