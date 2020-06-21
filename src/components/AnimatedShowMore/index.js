@@ -32,7 +32,8 @@ export const AnimatedShowMore = ({ toggle, height = 200, shadowColor, speed, chi
   /**
    * Toggle between the maximum height (height of the content)
    */
-  const handleToggleHeight = () => {
+  const handleToggleHeight = (e) => {
+    e.preventDefault();
     if (currentHeight === height) {
       setCurrentHeight(contentsHeight);
       setIsOpen(true);
