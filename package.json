@@ -1,6 +1,6 @@
 {
   "name": "@moondef/react-animated-show-more",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fully customizable animated 'show more' plugin",
   "main": "build/index.js",
   "repository": "https://github.com/moondef/@moondef/react-animated-show-more",
