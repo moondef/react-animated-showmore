@@ -34,6 +34,7 @@ export const AnimatedShowMore = ({ toggle, height = 200, shadowColor, speed, chi
    */
   const handleToggleHeight = (e) => {
     e.preventDefault();
+    e.stopPropagation();
     if (currentHeight === height) {
       setCurrentHeight(contentsHeight);
       setIsOpen(true);
